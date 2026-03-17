@@ -28,3 +28,7 @@ A section where parenst can register their kids filling up a form and choosing t
 here parents will find the address, the number phone to contact the orgonizers and links to Facebook/ instagram and X to see the pass classes and reactions. 
 <img width="707" height="131" alt="footer littlechefacademy" src="https://github.com/user-attachments/assets/c7812778-d922-4652-a8e7-6e40df53d3d6" />
 
+## Testing 
+- HTML
+  - No errors were returned when passing through the official [W3C validator]
+
