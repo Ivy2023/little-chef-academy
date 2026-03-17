@@ -24,3 +24,7 @@ a looping video of 3 participants during a class
 A section where parenst can register their kids filling up a form and choosing the desire class 
 <img width="1040" height="155" alt="registration section chefAcamy" src="https://github.com/user-attachments/assets/dcd4ffd3-e07b-404b-a327-6fdf91d6a735" />
 
+### Footer 
+here parents will find the address, the number phone to contact the orgonizers and links to Facebook/ instagram and X to see the pass classes and reactions. 
+<img width="707" height="131" alt="footer littlechefacademy" src="https://github.com/user-attachments/assets/c7812778-d922-4652-a8e7-6e40df53d3d6" />
+
