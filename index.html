@@ -1,3 +1,20 @@
+<!-- 
+    Project: Little Chefs Academy
+    Developer: [Ivy Pinto]
+    
+    Image Credits:
+    - cookies-deco-kids.jpg: [https://unsplash.com/]
+    - kids-making-pizza.jpg: [https://unsplash.com/]
+    - smoothies-for-kids.jpg: [https://unsplash.com/]
+    
+    Video Credits:
+    - kids-cooking.mp4: [https://unsplash.com/]
+    
+    External Code Credits:
+    - CSS hamburger menu technique inspired by [https://css-tricks.com/]
+    - Form action endpoint: Code Institute formdump service
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,18 +27,24 @@
 
     <!-- 1.1 Main Navigation -->
     <header id="home">
-        <div class="logo">👨‍🍳 Little Chefs</div>
-        <nav aria-label="Main Menu">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#classes">Classes</a></li>
-                <li><a href="#video">Watch Us</a></li>
-                <li><a href="#register">Register</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <div class="logo">👨‍🍳 Little Chefs</div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <nav aria-label="Main Menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#video">Watch Us</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
     <main>
         <!-- 1.3 UX: Hero Section with clear structure -->
         <section id="classes" class="hero">
@@ -79,7 +102,7 @@
             
             <div class="video-wrapper">
                 <!-- 1.6 User Control: Standard HTML5 Video Controls -->
-                <video width="100" height="100" controls="" loop="" >
+                <video controls loop aria-label="Preview video of kids cooking class"></video>
                     <source src="assets/Videos/kids-cooking.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
